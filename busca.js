@@ -9,4 +9,6 @@ function busca(num) {
     return -1;
 }
 
-//usando a aplicãp//
+//usando a aplicãp
+console.log(busca(10));
+console.log(busca(50));
