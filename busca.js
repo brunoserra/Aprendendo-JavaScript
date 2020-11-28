@@ -1,12 +1,13 @@
-var valores = [10, 20, 30, 40, 50, 60];
+var valores = [15, 25, 35, 42, 60, 11];
 
 function busca(num) {
-    for (i = 0; i < 6; 1++) {
+    for (i = 0; i < 6; i++) {
         if (num == valores[i]) {
             return i;
         }
     }
     return -1;
+
 }
 
 //usando a aplicãp
