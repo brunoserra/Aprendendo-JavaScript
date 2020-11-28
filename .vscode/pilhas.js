@@ -12,9 +12,7 @@ function push(num) {
     } else { console.log("pilha esta cheia"); }
 }
 
-function Estavazia() {
-    return topo == -1
-}
+
 //retirada de elementos//
 //!= refere-se a simbulo deferente//
 //let é uma variavel local//
