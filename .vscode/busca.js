@@ -11,4 +11,4 @@ function busca(num) {
 
 //usando a aplicãp
 console.log(busca(10));
-console.log(busca(50));
+console.log(busca(60));
