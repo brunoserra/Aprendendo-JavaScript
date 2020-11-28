@@ -12,6 +12,9 @@ function push(num) {
     } else { console.log("pilha esta cheia"); }
 }
 
+function Estavazia() {
+    return topo == -1
+}
 //retirada de elementos//
 //!= refere-se a simbulo deferente//
 //let é uma variavel local//
@@ -28,5 +31,13 @@ function pop() {
 push(10);
 push(20);
 push(30);
+push(40);
+push(50);
 
 console.log(elementos);
+
+console.log(pop());
+console.log(pop());
+console.log(pop());
+console.log(pop());
+console.log(pop());
