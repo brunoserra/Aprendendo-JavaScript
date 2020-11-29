@@ -33,8 +33,7 @@ function buscaBin(num) {
         }
 
     }
-    console.console.log("não achei " + passo +
-        "passos");
+    console.log(" não achei em " + passo + "passos");
     return -1;
 
 }
@@ -49,3 +48,4 @@ function buscaBin(num) {
 console.log(buscaBin(10));
 console.log();
 console.log(buscaBin(120));
+console.log(buscaBin(52));
