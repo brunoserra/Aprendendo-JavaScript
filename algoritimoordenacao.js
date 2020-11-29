@@ -7,7 +7,7 @@ function ordena() {
     let tmp;
     for (vezes = 0; vezes < 8; vezes++) {
 
-        for (pos = inicio; pos < fim - 1; pos++) {
+        for (pos = inicio; pos < fim - 1 - vezes; pos++) {
             if (valores[pos] > valores[pos + 1]) {
                 tmp = valores[pos];
                 valores[pos] = valores[pos + 1];
