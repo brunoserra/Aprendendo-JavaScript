@@ -10,7 +10,7 @@ class Matematica {
     }
 }
 // criar instancia da class
-var instancia = new Matematica();
+var instanciaMatematica = new Matematica();
 var resultado = instanciaMatematica.soma(10, 35);
 
 console.log(resultado);
