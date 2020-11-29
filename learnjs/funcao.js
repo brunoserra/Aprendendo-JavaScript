@@ -4,4 +4,6 @@ function soma(operadorA, operadorB) {
     return resultadoC;
 }
 var resultadoSoma = soma(1, 2);
+var resultadoNovo = soma(120, 200);
 console.log(resultadoSoma);
+console.log(resultadoNovo);
