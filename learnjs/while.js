@@ -7,7 +7,11 @@
 var achou = false;
 var numeroSorteado = 10;
 var possivelValores = 0;
-while (!achou) {
-    possivelValores = +1;
-
+while (achou) {
+    possivelValores += 1;
+    if (numeroSorteado === possivelValores) {
+        achou = true
+    } else {
+        console.log("possivel valor não" + possivelValores);
+    }
 }
