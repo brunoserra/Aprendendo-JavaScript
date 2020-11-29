@@ -15,3 +15,4 @@ var primeiroValor = 400
 var segundoValor = 20
 var resultados = primeiroValor - segundoValor;
 console.log(resultados);
+// no javascriopt tudo é variavelnão tem distinção
