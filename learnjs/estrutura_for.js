@@ -2,17 +2,20 @@
 // cirar variavel controladora
 //< menor // >maior 
 
-var numeroSorteado = 10
+var numeroSorteado = 50
 
-for (var i = 0; i < 15; i++) {
-    console.log(i);
-
+for (var i = 0; i < 20; i++) {
+    if (numeroSorteado === i) {
+        console.log("parabens voce ganhou");
+        break;
+    }
 }
 
-var numeroSorteado = 10
-var tabuada = 7
+//funcao break não é bom usar parabada subta
 
-for (var i = 0; i <= 10; i++) {
-    console.log("valor de" + tabuada + "x" + i + " = " + (tabuada * i));
 
-}
+//var numeroSorteado = 10
+//var tabuada = 7
+
+//for (var i = 0; i <= 10; i++) {
+//console.log("valor de" + tabuada + "x" + i + " = " + (tabuada * i));}
